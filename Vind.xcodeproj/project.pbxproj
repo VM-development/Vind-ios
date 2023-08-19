@@ -56,6 +56,7 @@
 		6E4C498B2A8CEE1700BFEED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C49892A8CEE1700BFEED8 /* GoogleService-Info.plist */; };
 		6E4C498C2A8CEE1700BFEED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C49892A8CEE1700BFEED8 /* GoogleService-Info.plist */; };
 		6E7A30962A8ED92B000D2E1B /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7A30952A8ED92B000D2E1B /* UIUtils.swift */; };
+		6EFA220D2A91799600A06FE1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EFA220C2A91799600A06FE1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		6E4C49792A8BDA3A00BFEED8 /* VindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VindUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6E4C49892A8CEE1700BFEED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6E7A30952A8ED92B000D2E1B /* UIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		6EFA220C2A91799600A06FE1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 		6E4C49502A8BDA3900BFEED8 = {
 			isa = PBXGroup;
 			children = (
+				6EFA220C2A91799600A06FE1 /* README.md */,
 				6E4C495B2A8BDA3900BFEED8 /* Vind */,
 				6E4C496C2A8BDA3A00BFEED8 /* VindTests */,
 				6E4C49762A8BDA3A00BFEED8 /* VindUITests */,
@@ -407,6 +410,7 @@
 			files = (
 				6E4C49642A8BDA3A00BFEED8 /* Preview Assets.xcassets in Resources */,
 				6E4C49612A8BDA3A00BFEED8 /* Assets.xcassets in Resources */,
+				6EFA220D2A91799600A06FE1 /* README.md in Resources */,
 				6E4C498A2A8CEE1700BFEED8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
