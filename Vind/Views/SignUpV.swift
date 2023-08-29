@@ -14,31 +14,31 @@ struct SignUpView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
-                Text("Sign Up")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                
-                // Email and Password Section
-                TextField("Email", text: $email)
-                    .padding()
-                    .background(Color(.secondarySystemFill))
-                    .cornerRadius(8)
-                
-                SecureField("Password", text: $password)
-                    .padding()
-                    .background(Color(.secondarySystemFill))
-                    .cornerRadius(8)
-                
-                // Login with Email and Password Button
-                Button(action: {
-                    authenticationViewModel.signUp(email: email, password: password)
-                }) {
-                    Text("Log In")
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity, maxHeight: 50)
-                        .background(Color.blue)
-                        .cornerRadius(8)
-                }
+//                Text("Sign Up")
+//                    .font(.largeTitle)
+//                    .fontWeight(.semibold)
+//                
+//                // Email and Password Section
+//                TextField("Email", text: $email)
+//                    .padding()
+//                    .background(Color(.secondarySystemFill))
+//                    .cornerRadius(8)
+//                
+//                SecureField("Password", text: $password)
+//                    .padding()
+//                    .background(Color(.secondarySystemFill))
+//                    .cornerRadius(8)
+//                
+//                // Login with Email and Password Button
+//                Button(action: {
+//                    authenticationViewModel.signUp(email: email, password: password)
+//                }) {
+//                    Text("Log In")
+//                        .foregroundColor(.white)
+//                        .frame(maxWidth: .infinity, maxHeight: 50)
+//                        .background(Color.blue)
+//                        .cornerRadius(8)
+//                }
                 
                 // Or Separator
                 Spacer()

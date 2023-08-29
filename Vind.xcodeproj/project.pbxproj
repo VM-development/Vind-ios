@@ -45,6 +45,11 @@
 		6E2641822A8EB41400D8D2AE /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 6E2641812A8EB41400D8D2AE /* GoogleSignIn */; };
 		6E2641842A8EB41400D8D2AE /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E2641832A8EB41400D8D2AE /* GoogleSignInSwift */; };
 		6E2641872A8EBA2000D8D2AE /* HomeV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2641862A8EBA2000D8D2AE /* HomeV.swift */; };
+		6E31447E2A9E4625005A1A44 /* ProfileV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E31447D2A9E4625005A1A44 /* ProfileV.swift */; };
+		6E3144802A9E464B005A1A44 /* CreateV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E31447F2A9E464B005A1A44 /* CreateV.swift */; };
+		6E3144822A9E4666005A1A44 /* MainV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3144812A9E4666005A1A44 /* MainV.swift */; };
+		6E3144842A9E4689005A1A44 /* MessagesV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3144832A9E4689005A1A44 /* MessagesV.swift */; };
+		6E3144862A9E469E005A1A44 /* ExploreV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3144852A9E469E005A1A44 /* ExploreV.swift */; };
 		6E4C495D2A8BDA3900BFEED8 /* VindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C495C2A8BDA3900BFEED8 /* VindApp.swift */; };
 		6E4C495F2A8BDA3900BFEED8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4C495E2A8BDA3900BFEED8 /* ContentView.swift */; };
 		6E4C49612A8BDA3A00BFEED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C49602A8BDA3A00BFEED8 /* Assets.xcassets */; };
@@ -85,6 +90,11 @@
 		6E1B512C2A8E7309009BC03B /* FirebaseAuthenticationS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthenticationS.swift; sourceTree = "<group>"; };
 		6E2641852A8EB53700D8D2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6E2641862A8EBA2000D8D2AE /* HomeV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeV.swift; sourceTree = "<group>"; };
+		6E31447D2A9E4625005A1A44 /* ProfileV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileV.swift; sourceTree = "<group>"; };
+		6E31447F2A9E464B005A1A44 /* CreateV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateV.swift; sourceTree = "<group>"; };
+		6E3144812A9E4666005A1A44 /* MainV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainV.swift; sourceTree = "<group>"; };
+		6E3144832A9E4689005A1A44 /* MessagesV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesV.swift; sourceTree = "<group>"; };
+		6E3144852A9E469E005A1A44 /* ExploreV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreV.swift; sourceTree = "<group>"; };
 		6E4C49592A8BDA3900BFEED8 /* Vind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4C495C2A8BDA3900BFEED8 /* VindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VindApp.swift; sourceTree = "<group>"; };
 		6E4C495E2A8BDA3900BFEED8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -248,6 +258,11 @@
 			children = (
 				6E1B511E2A8CFE1D009BC03B /* SignInV.swift */,
 				6E2641862A8EBA2000D8D2AE /* HomeV.swift */,
+				6E31447D2A9E4625005A1A44 /* ProfileV.swift */,
+				6E31447F2A9E464B005A1A44 /* CreateV.swift */,
+				6E3144812A9E4666005A1A44 /* MainV.swift */,
+				6E3144832A9E4689005A1A44 /* MessagesV.swift */,
+				6E3144852A9E469E005A1A44 /* ExploreV.swift */,
 				6E1B51222A8D0ADE009BC03B /* SignUpV.swift */,
 			);
 			path = Views;
@@ -438,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3144862A9E469E005A1A44 /* ExploreV.swift in Sources */,
 				6E4C495F2A8BDA3900BFEED8 /* ContentView.swift in Sources */,
 				6E1B51282A8D7D87009BC03B /* AuthenticationS.swift in Sources */,
 				6E4C495D2A8BDA3900BFEED8 /* VindApp.swift in Sources */,
@@ -446,8 +462,12 @@
 				6E7A30962A8ED92B000D2E1B /* UIUtils.swift in Sources */,
 				6E1B512A2A8E2F95009BC03B /* UserM.swift in Sources */,
 				6E1B51212A8CFE83009BC03B /* AuthenticationVM.swift in Sources */,
+				6E3144842A9E4689005A1A44 /* MessagesV.swift in Sources */,
 				6E2641872A8EBA2000D8D2AE /* HomeV.swift in Sources */,
+				6E31447E2A9E4625005A1A44 /* ProfileV.swift in Sources */,
+				6E3144802A9E464B005A1A44 /* CreateV.swift in Sources */,
 				6E1B51232A8D0ADE009BC03B /* SignUpV.swift in Sources */,
+				6E3144822A9E4666005A1A44 /* MainV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

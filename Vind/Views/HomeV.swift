@@ -8,21 +8,11 @@
 import SwiftUI
 
 struct HomeView: View {
-    @EnvironmentObject var authenticationViewModel: AuthenticationViewModel
+    @State private var selectedTab = 0
+    
     
     var body: some View {
-        VStack(spacing: 20) {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            Button(action: {
-                authenticationViewModel.signOut()
-            }) {
-                Text("Sign Out")
-                    .foregroundColor(.white)
-                    .frame(maxWidth: .infinity, maxHeight: 50)
-                    .background(Color.blue)
-                    .cornerRadius(8)
-            }
-        }
+        Text("Home!")
     }
 }
 

@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         switch viewModel.isAuthenticated {
-          case true: HomeView()
+          case true: MainView()
           case false: SignInView()
         }
       }
