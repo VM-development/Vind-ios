@@ -25,7 +25,7 @@ struct MainView: View {
                         Text("Find")
                     }.tag(1)
                 
-                CreateView()
+                CreateView(viewModel: VindViewModel(eventService: FirebaseVindService()))
                     .tabItem {
                         Image(systemName: "plus.diamond")
                         Text("Create")

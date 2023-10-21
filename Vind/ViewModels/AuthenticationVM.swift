@@ -8,7 +8,7 @@
 import SwiftUI
 
 class AuthenticationViewModel: ObservableObject {
-    @Published var user: User?
+    @Published var user: User? = User(id: "", name: "test", email: "test@test.com", password: "test")
     @Published var isAuthenticated = false
     
     private var authService: AuthenticationService

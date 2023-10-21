@@ -13,58 +13,77 @@ import GoogleSignInSwift
 
 
 class FirebaseAuthenticationService: AuthenticationService {
-    @MainActor func signInWithGoogle(completion: @escaping (User?, Error?) -> Void) {
+    @MainActor 
+    func signInWithGoogle(completion: @escaping (User?, Error?) -> Void) {
         guard let topVC = Utilities.shared.topViewController() else {
             completion(nil, URLError(.cannotFindHost))
             return
         }
         
-        GIDSignIn.sharedInstance.signIn(withPresenting: topVC) { signInResult, error in
+        GIDSignIn.sharedInstance.signIn(withPresenting: topVC, completion: { (result, error) in
             if let error = error {
                 completion(nil, error)
-            } else {
-                guard let idToken = signInResult?.user.idToken?.tokenString else {
-                    completion(nil, URLError(.badServerResponse))
-                    return
-                }
-                guard let accessToken = signInResult?.user.accessToken.tokenString else {
-                    completion(nil, URLError(.badServerResponse))
-                    return
-                }
-                
-                let credential = GoogleAuthProvider.credential(withIDToken: idToken,
-                                                               accessToken: accessToken)
-                Auth.auth().signIn(with: credential) { (authResult, error) in
-                    completion(User(from: authResult?.user), error)
-                }
             }
-        }
+            else{
+                guard let idToken = result?.user.idToken?.tokenString else {
+                    completion(nil, URLError(.badServerResponse))
+                    return
+                }
+                guard let accessToken = result?.user.accessToken.tokenString else {
+                    completion(nil, URLError(.badServerResponse))
+                    return
+                }
+                let credential = GoogleAuthProvider.credential(withIDToken: idToken, accessToken: accessToken)
+                Auth.auth().signIn(with: credential, completion: { (authResult, error) in
+                    completion(User(from: authResult?.user), error)
+                })
+            }
+        })
     }
-    
+//    
+//    if let error = error {
+//        completion(nil, error)
+//    } else {
+//        guard let idToken = result?.user.idToken?.tokenString else {
+//            completion(nil, URLError(.badServerResponse))
+//            return
+//        }
+//        guard let accessToken = result?.user.accessToken.tokenString else {
+//            completion(nil, URLError(.badServerResponse))
+//            return
+//        }
+//        
+//        let credential = GoogleAuthProvider.credential(withIDToken: idToken,
+//                                                       accessToken: accessToken)
+//        Auth.auth().signIn(with: credential, completion: { (authResult, error) in
+//            completion(User(from: authResult?.user), error)
+//        })
+//    }
     
     func signIn(email: String, password: String, completion: @escaping (User?, Error?) -> Void) {
-        Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
-            completion(User(from: authResult?.user) , error)
-        }
+//        Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
+//            completion(User(from: authResult?.user) , error)
+//        }
     }
     
     func signUp(email: String, password: String, completion: @escaping (User?, Error?) -> Void) {
-        Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
-            if let user = authResult?.user {
-                let changeRequest = user.createProfileChangeRequest()
-                changeRequest.commitChanges { (error) in
-                    completion(User(from: user), error)
-                }
-            } else {
-                completion(nil, error)
-            }
-        }
+//        Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
+//            if let user = authResult?.user {
+//                let changeRequest = user.createProfileChangeRequest()
+//                changeRequest.commitChanges { (error) in
+//                    completion(User(from: user), error)
+//                }
+//            } else {
+//                completion(nil, error)
+//            }
+//        }
     }
     
     func signOut() throws {
         try Auth.auth().signOut()
     }
 }
+
 
 extension User {
     init?(from firebaseUser: FirebaseAuth.User?) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E14A39B2AE4866900734AF6 /* UserSettingsV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E14A39A2AE4866900734AF6 /* UserSettingsV.swift */; };
 		6E1B511F2A8CFE1E009BC03B /* SignInV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B511E2A8CFE1D009BC03B /* SignInV.swift */; };
 		6E1B51212A8CFE83009BC03B /* AuthenticationVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B51202A8CFE83009BC03B /* AuthenticationVM.swift */; };
 		6E1B51232A8D0ADE009BC03B /* SignUpV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B51222A8D0ADE009BC03B /* SignUpV.swift */; };
@@ -60,6 +61,22 @@
 		6E4C498A2A8CEE1700BFEED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C49892A8CEE1700BFEED8 /* GoogleService-Info.plist */; };
 		6E4C498B2A8CEE1700BFEED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C49892A8CEE1700BFEED8 /* GoogleService-Info.plist */; };
 		6E4C498C2A8CEE1700BFEED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4C49892A8CEE1700BFEED8 /* GoogleService-Info.plist */; };
+		6E622BED2ABBCC3F005CEA90 /* MockAuthenticationS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BEC2ABBCC3F005CEA90 /* MockAuthenticationS.swift */; };
+		6E622BEE2ABBCC3F005CEA90 /* MockAuthenticationS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BEC2ABBCC3F005CEA90 /* MockAuthenticationS.swift */; };
+		6E622BEF2ABBCC3F005CEA90 /* MockAuthenticationS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BEC2ABBCC3F005CEA90 /* MockAuthenticationS.swift */; };
+		6E622BF12ABFABDB005CEA90 /* VindM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF02ABFABDB005CEA90 /* VindM.swift */; };
+		6E622BF22ABFABDB005CEA90 /* VindM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF02ABFABDB005CEA90 /* VindM.swift */; };
+		6E622BF32ABFABDB005CEA90 /* VindM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF02ABFABDB005CEA90 /* VindM.swift */; };
+		6E622BF52ABFAD65005CEA90 /* VindVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF42ABFAD65005CEA90 /* VindVM.swift */; };
+		6E622BF62ABFAD65005CEA90 /* VindVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF42ABFAD65005CEA90 /* VindVM.swift */; };
+		6E622BF72ABFAD65005CEA90 /* VindVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF42ABFAD65005CEA90 /* VindVM.swift */; };
+		6E622BFA2ABFB2E6005CEA90 /* VindS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF92ABFB2E6005CEA90 /* VindS.swift */; };
+		6E622BFB2ABFB2E6005CEA90 /* VindS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF92ABFB2E6005CEA90 /* VindS.swift */; };
+		6E622BFC2ABFB2E6005CEA90 /* VindS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BF92ABFB2E6005CEA90 /* VindS.swift */; };
+		6E622BFE2ABFB2FA005CEA90 /* FirebaseVindS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BFD2ABFB2FA005CEA90 /* FirebaseVindS.swift */; };
+		6E622BFF2ABFB2FA005CEA90 /* FirebaseVindS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BFD2ABFB2FA005CEA90 /* FirebaseVindS.swift */; };
+		6E622C002ABFB2FA005CEA90 /* FirebaseVindS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E622BFD2ABFB2FA005CEA90 /* FirebaseVindS.swift */; };
+		6E762C562AD759B60007BCFB /* MockVindService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E762C552AD759B60007BCFB /* MockVindService.swift */; };
 		6E7A30962A8ED92B000D2E1B /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7A30952A8ED92B000D2E1B /* UIUtils.swift */; };
 		6EFA220D2A91799600A06FE1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EFA220C2A91799600A06FE1 /* README.md */; };
 /* End PBXBuildFile section */
@@ -82,6 +99,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E14A39A2AE4866900734AF6 /* UserSettingsV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsV.swift; sourceTree = "<group>"; };
 		6E1B511E2A8CFE1D009BC03B /* SignInV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInV.swift; sourceTree = "<group>"; };
 		6E1B51202A8CFE83009BC03B /* AuthenticationVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVM.swift; sourceTree = "<group>"; };
 		6E1B51222A8D0ADE009BC03B /* SignUpV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpV.swift; sourceTree = "<group>"; };
@@ -106,6 +124,12 @@
 		6E4C49772A8BDA3A00BFEED8 /* VindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VindUITests.swift; sourceTree = "<group>"; };
 		6E4C49792A8BDA3A00BFEED8 /* VindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VindUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6E4C49892A8CEE1700BFEED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E622BEC2ABBCC3F005CEA90 /* MockAuthenticationS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuthenticationS.swift; sourceTree = "<group>"; };
+		6E622BF02ABFABDB005CEA90 /* VindM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VindM.swift; sourceTree = "<group>"; };
+		6E622BF42ABFAD65005CEA90 /* VindVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VindVM.swift; sourceTree = "<group>"; };
+		6E622BF92ABFB2E6005CEA90 /* VindS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VindS.swift; sourceTree = "<group>"; };
+		6E622BFD2ABFB2FA005CEA90 /* FirebaseVindS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseVindS.swift; sourceTree = "<group>"; };
+		6E762C552AD759B60007BCFB /* MockVindService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockVindService.swift; sourceTree = "<group>"; };
 		6E7A30952A8ED92B000D2E1B /* UIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
 		6EFA220C2A91799600A06FE1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +191,7 @@
 		6E1B51262A8D7D68009BC03B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				6E622BF82ABFB2C6005CEA90 /* Vind */,
 				6E1B512B2A8E72E5009BC03B /* Authentication */,
 			);
 			path = Services;
@@ -176,9 +201,18 @@
 			isa = PBXGroup;
 			children = (
 				6E1B51272A8D7D87009BC03B /* AuthenticationS.swift */,
+				6E622BEC2ABBCC3F005CEA90 /* MockAuthenticationS.swift */,
 				6E1B512C2A8E7309009BC03B /* FirebaseAuthenticationS.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		6E2C24202AB39790001A30A3 /* ProfileVs */ = {
+			isa = PBXGroup;
+			children = (
+				6E14A39A2AE4866900734AF6 /* UserSettingsV.swift */,
+			);
+			path = ProfileVs;
 			sourceTree = "<group>";
 		};
 		6E4C49502A8BDA3900BFEED8 = {
@@ -249,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				6E1B51202A8CFE83009BC03B /* AuthenticationVM.swift */,
+				6E622BF42ABFAD65005CEA90 /* VindVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -259,6 +294,7 @@
 				6E1B511E2A8CFE1D009BC03B /* SignInV.swift */,
 				6E2641862A8EBA2000D8D2AE /* HomeV.swift */,
 				6E31447D2A9E4625005A1A44 /* ProfileV.swift */,
+				6E2C24202AB39790001A30A3 /* ProfileVs */,
 				6E31447F2A9E464B005A1A44 /* CreateV.swift */,
 				6E3144812A9E4666005A1A44 /* MainV.swift */,
 				6E3144832A9E4689005A1A44 /* MessagesV.swift */,
@@ -272,8 +308,19 @@
 			isa = PBXGroup;
 			children = (
 				6E1B51292A8E2F95009BC03B /* UserM.swift */,
+				6E622BF02ABFABDB005CEA90 /* VindM.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6E622BF82ABFB2C6005CEA90 /* Vind */ = {
+			isa = PBXGroup;
+			children = (
+				6E622BF92ABFB2E6005CEA90 /* VindS.swift */,
+				6E762C552AD759B60007BCFB /* MockVindService.swift */,
+				6E622BFD2ABFB2FA005CEA90 /* FirebaseVindS.swift */,
+			);
+			path = Vind;
 			sourceTree = "<group>";
 		};
 		6E7A30942A8ED796000D2E1B /* Utilities */ = {
@@ -379,7 +426,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					6E4C49582A8BDA3900BFEED8 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -453,20 +500,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E622BFE2ABFB2FA005CEA90 /* FirebaseVindS.swift in Sources */,
+				6E762C562AD759B60007BCFB /* MockVindService.swift in Sources */,
 				6E3144862A9E469E005A1A44 /* ExploreV.swift in Sources */,
+				6E622BF52ABFAD65005CEA90 /* VindVM.swift in Sources */,
+				6E622BED2ABBCC3F005CEA90 /* MockAuthenticationS.swift in Sources */,
 				6E4C495F2A8BDA3900BFEED8 /* ContentView.swift in Sources */,
+				6E14A39B2AE4866900734AF6 /* UserSettingsV.swift in Sources */,
 				6E1B51282A8D7D87009BC03B /* AuthenticationS.swift in Sources */,
 				6E4C495D2A8BDA3900BFEED8 /* VindApp.swift in Sources */,
 				6E1B511F2A8CFE1E009BC03B /* SignInV.swift in Sources */,
 				6E1B512D2A8E7309009BC03B /* FirebaseAuthenticationS.swift in Sources */,
 				6E7A30962A8ED92B000D2E1B /* UIUtils.swift in Sources */,
 				6E1B512A2A8E2F95009BC03B /* UserM.swift in Sources */,
+				6E622BF12ABFABDB005CEA90 /* VindM.swift in Sources */,
 				6E1B51212A8CFE83009BC03B /* AuthenticationVM.swift in Sources */,
 				6E3144842A9E4689005A1A44 /* MessagesV.swift in Sources */,
 				6E2641872A8EBA2000D8D2AE /* HomeV.swift in Sources */,
 				6E31447E2A9E4625005A1A44 /* ProfileV.swift in Sources */,
 				6E3144802A9E464B005A1A44 /* CreateV.swift in Sources */,
 				6E1B51232A8D0ADE009BC03B /* SignUpV.swift in Sources */,
+				6E622BFA2ABFB2E6005CEA90 /* VindS.swift in Sources */,
 				6E3144822A9E4666005A1A44 /* MainV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,8 +529,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E622BF22ABFABDB005CEA90 /* VindM.swift in Sources */,
+				6E622BFF2ABFB2FA005CEA90 /* FirebaseVindS.swift in Sources */,
 				6E1B512E2A8E7309009BC03B /* FirebaseAuthenticationS.swift in Sources */,
 				6E4C496E2A8BDA3A00BFEED8 /* VindTests.swift in Sources */,
+				6E622BEE2ABBCC3F005CEA90 /* MockAuthenticationS.swift in Sources */,
+				6E622BF62ABFAD65005CEA90 /* VindVM.swift in Sources */,
+				6E622BFB2ABFB2E6005CEA90 /* VindS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,9 +543,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E622C002ABFB2FA005CEA90 /* FirebaseVindS.swift in Sources */,
 				6E4C49782A8BDA3A00BFEED8 /* VindUITests.swift in Sources */,
+				6E622BF72ABFAD65005CEA90 /* VindVM.swift in Sources */,
+				6E622BEF2ABBCC3F005CEA90 /* MockAuthenticationS.swift in Sources */,
 				6E1B512F2A8E7309009BC03B /* FirebaseAuthenticationS.swift in Sources */,
+				6E622BFC2ABFB2E6005CEA90 /* VindS.swift in Sources */,
 				6E4C497A2A8BDA3A00BFEED8 /* VindUITestsLaunchTests.swift in Sources */,
+				6E622BF32ABFABDB005CEA90 /* VindM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +606,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -602,6 +667,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -635,8 +701,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -665,8 +731,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
